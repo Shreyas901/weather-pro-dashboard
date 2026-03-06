@@ -1,4 +1,4 @@
-# Weather Pro Dashboard with External MCP Server Integration
+# Weather Pro Dashboard With External MCP Server Integration
 
 A stunning, modern weather application built with Flask backend and vanilla JavaScript frontend, featuring real-time weather data from AccuWeather MCP servers.
 
