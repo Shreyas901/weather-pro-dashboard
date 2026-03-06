@@ -1,0 +1,44 @@
+{
+  "cities": [
+    {
+      "name": "New York",
+      "country": "United States",
+      "key": "new-york"
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom",
+      "key": "london"
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "key": "tokyo"
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "key": "paris"
+    },
+    {
+      "name": "Sydney",
+      "country": "Australia",
+      "key": "sydney"
+    },
+    {
+      "name": "Mumbai",
+      "country": "India",
+      "key": "mumbai"
+    },
+    {
+      "name": "Berlin",
+      "country": "Germany",
+      "key": "berlin"
+    },
+    {
+      "name": "Los Angeles",
+      "country": "United States",
+      "key": "los-angeles"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "weather_services": {
+    "openweather_mcp": {
+      "name": "OpenWeatherMap MCP Server",
+      "endpoint": "http://localhost:8001",
+      "transport": "http",
+      "capabilities": ["current_weather", "forecast", "weather_alerts"],
+      "priority": 1,
+      "active": true
+    },
+    "accuweather_mcp": {
+      "name": "AccuWeather MCP Server",
+      "endpoint": "http://localhost:8002",
+      "transport": "http",
+      "capabilities": ["current_weather", "forecast", "radar"],
+      "priority": 2,
+      "active": false
+    },
+    "weatherapi_mcp": {
+      "name": "WeatherAPI MCP Server",
+      "endpoint": "http://localhost:8003",
+      "transport": "http",
+      "capabilities": ["current_weather", "forecast", "astronomy"],
+      "priority": 3,
+      "active": false
+    },
+    "demo_weather_mcp": {
+      "name": "Demo Weather MCP Server",
+      "endpoint": "internal",
+      "transport": "internal",
+      "capabilities": ["current_weather", "forecast", "all"],
+      "priority": 99,
+      "active": true
+    }
+  },
+  "fallback_strategy": "demo",
+  "timeout": 30,
+  "retry_attempts": 3
+}

@@ -1,0 +1,54 @@
+{
+  "city": "Tokyo",
+  "country": "Japan",
+  "temp": 26,
+  "condition": "Sunny",
+  "humidity": 58,
+  "wind_speed": 7,
+  "wind_dir": "E",
+  "pressure": 1018,
+  "visibility": 15,
+  "uv_index": 8,
+  "feels_like": 28,
+  "precipitation": 0,
+  "sunrise": "05:45",
+  "sunset": "18:20",
+  "timestamp": "2024-01-01T12:00:00",
+  "forecast": [
+    {
+      "day": 0,
+      "high": 29,
+      "low": 23,
+      "condition": "Sunny",
+      "precip": 0
+    },
+    {
+      "day": 1,
+      "high": 27,
+      "low": 21,
+      "condition": "Clear",
+      "precip": 0
+    },
+    {
+      "day": 2,
+      "high": 25,
+      "low": 19,
+      "condition": "Partly Cloudy",
+      "precip": 10
+    },
+    {
+      "day": 3,
+      "high": 24,
+      "low": 18,
+      "condition": "Cloudy",
+      "precip": 30
+    },
+    {
+      "day": 4,
+      "high": 26,
+      "low": 20,
+      "condition": "Clear",
+      "precip": 5
+    }
+  ]
+}

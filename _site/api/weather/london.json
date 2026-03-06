@@ -1,0 +1,54 @@
+{
+  "city": "London",
+  "country": "United Kingdom",
+  "temp": 15,
+  "condition": "Cloudy",
+  "humidity": 78,
+  "wind_speed": 8,
+  "wind_dir": "SW",
+  "pressure": 1008,
+  "visibility": 8,
+  "uv_index": 3,
+  "feels_like": 13,
+  "precipitation": 2,
+  "sunrise": "07:45",
+  "sunset": "18:30",
+  "timestamp": "2024-01-01T12:00:00",
+  "forecast": [
+    {
+      "day": 0,
+      "high": 18,
+      "low": 12,
+      "condition": "Cloudy",
+      "precip": 30
+    },
+    {
+      "day": 1,
+      "high": 16,
+      "low": 10,
+      "condition": "Rainy",
+      "precip": 80
+    },
+    {
+      "day": 2,
+      "high": 14,
+      "low": 8,
+      "condition": "Overcast",
+      "precip": 40
+    },
+    {
+      "day": 3,
+      "high": 17,
+      "low": 11,
+      "condition": "Partly Cloudy",
+      "precip": 20
+    },
+    {
+      "day": 4,
+      "high": 19,
+      "low": 13,
+      "condition": "Clear",
+      "precip": 5
+    }
+  ]
+}
